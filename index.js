@@ -1,9 +1,4 @@
 function largestSubarraySum (arr) {
-  let sum = 0;
-  for (let n of arr) {
-    if (n > 0) {
-      sum += n;
-    }
-  }
-  return sum;
+  let subArr = arr.slice(0, indexOf(Math.min(arr)))
+  console.log(subArr)
 }
